@@ -2,7 +2,7 @@
 	"node": "n8n-nodes-tryverifyemail.verifyEmail",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
-	"categories": ["Marketing", "Utility"],
+	"categories": ["Marketing & Content", "Utility"],
 	"resources": {
 		"credentialDocumentation": [
 			{
