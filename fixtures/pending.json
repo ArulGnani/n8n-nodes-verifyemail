@@ -1,0 +1,42 @@
+{
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json",
+      "Location": "/v1/email-verifications/5f1c9d2e-8b1a-4f5e-9c3d-2a7b6e4d1f08",
+      "RateLimit-Limit": "3",
+      "RateLimit-Remaining": "5",
+      "RateLimit-Reset": "1"
+    },
+    "body": {
+      "id": "5f1c9d2e-8b1a-4f5e-9c3d-2a7b6e4d1f08",
+      "status": "pending",
+      "poll_after_ms": 2000,
+      "next_retry_at": "2026-09-05T06:35:03.000Z"
+    }
+  },
+  "flat": {
+    "id": "5f1c9d2e-8b1a-4f5e-9c3d-2a7b6e4d1f08",
+    "status": "pending",
+    "email": null,
+    "normalized_email": null,
+    "verdict": null,
+    "sub_status": null,
+    "quality_score": null,
+    "confidence": null,
+    "provider": null,
+    "primary_mx": null,
+    "signal_syntax": null,
+    "signal_domain": null,
+    "signal_mx": null,
+    "signal_smtp": null,
+    "signal_catch_all": null,
+    "signal_role_account": null,
+    "signal_disposable": null,
+    "signal_dnsbl": null,
+    "signal_toxic": null,
+    "signal_greylisting": null,
+    "verified_at": null,
+    "is_deliverable": false
+  }
+}

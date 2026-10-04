@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-tryverifyemail.verifyEmail",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing", "Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/ArulGnani/n8n-nodes-verifyemail?tab=readme-ov-file#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://tryverifyemail.com/docs/integrations/n8n/"
+			}
+		]
+	}
+}

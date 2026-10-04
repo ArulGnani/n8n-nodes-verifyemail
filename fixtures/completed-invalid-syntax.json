@@ -1,0 +1,62 @@
+{
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "RateLimit-Limit": "3",
+      "RateLimit-Remaining": "5",
+      "RateLimit-Reset": "1"
+    },
+    "body": {
+      "id": "9c4e7a1b-2d3f-4e5a-8b6c-7d8e9f0a1b2c",
+      "status": "completed",
+      "result": {
+        "email": "not-an-email",
+        "normalized_email": "not-an-email",
+        "verdict": "undeliverable",
+        "sub_status": "invalid_syntax",
+        "quality_score": 0,
+        "confidence": 100,
+        "provider": null,
+        "primary_mx": null,
+        "signals": {
+          "syntax": "fail",
+          "domain": "skipped",
+          "mx": "skipped",
+          "smtp": "skipped",
+          "catch_all": "skipped",
+          "role_account": "skipped",
+          "disposable": "skipped",
+          "dnsbl": "skipped",
+          "toxic": "skipped",
+          "greylisting": "skipped"
+        },
+        "verified_at": "2026-09-05T06:35:01.000Z"
+      }
+    }
+  },
+  "flat": {
+    "id": "9c4e7a1b-2d3f-4e5a-8b6c-7d8e9f0a1b2c",
+    "status": "completed",
+    "email": "not-an-email",
+    "normalized_email": "not-an-email",
+    "verdict": "undeliverable",
+    "sub_status": "invalid_syntax",
+    "quality_score": 0,
+    "confidence": 100,
+    "provider": null,
+    "primary_mx": null,
+    "signal_syntax": "fail",
+    "signal_domain": "skipped",
+    "signal_mx": "skipped",
+    "signal_smtp": "skipped",
+    "signal_catch_all": "skipped",
+    "signal_role_account": "skipped",
+    "signal_disposable": "skipped",
+    "signal_dnsbl": "skipped",
+    "signal_toxic": "skipped",
+    "signal_greylisting": "skipped",
+    "verified_at": "2026-09-05T06:35:01.000Z",
+    "is_deliverable": false
+  }
+}
